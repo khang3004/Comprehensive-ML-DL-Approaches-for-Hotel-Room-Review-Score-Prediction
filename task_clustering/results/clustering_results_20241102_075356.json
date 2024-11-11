@@ -1,0 +1,81 @@
+{
+    "kmeans": {
+        "fold_metrics": [
+            {
+                "silhouette": 0.1954551125922371,
+                "calinski_harabasz": 29.74283819082557,
+                "davies_bouldin": 1.6794273852803228
+            },
+            {
+                "silhouette": 0.1978334240868808,
+                "calinski_harabasz": 30.777040232483433,
+                "davies_bouldin": 1.65695810162813
+            },
+            {
+                "silhouette": 0.17585065989209978,
+                "calinski_harabasz": 28.043912110380916,
+                "davies_bouldin": 1.712256844248154
+            },
+            {
+                "silhouette": 0.21411017102965565,
+                "calinski_harabasz": 29.576120668402954,
+                "davies_bouldin": 1.7111876331328741
+            },
+            {
+                "silhouette": 0.18417435381507125,
+                "calinski_harabasz": 28.349499695891758,
+                "davies_bouldin": 1.6643886512350972
+            }
+        ],
+        "best_score": 0.21411017102965565,
+        "test_metrics": {
+            "silhouette": 0.20386589574188305,
+            "calinski_harabasz": 35.390954263842794,
+            "davies_bouldin": 1.7425433355958024
+        },
+        "best_params": {
+            "n_clusters": 10
+        },
+        "timestamp": "20241102_075356"
+    },
+    "dbscan": {
+        "fold_metrics": [
+            {
+                "silhouette": 0.22011225336935472,
+                "calinski_harabasz": 6.409974894069064,
+                "davies_bouldin": 1.1700952201531734
+            },
+            {
+                "silhouette": 0.04819679172756331,
+                "calinski_harabasz": 5.630361924161191,
+                "davies_bouldin": 0.9915042095060815
+            },
+            {
+                "silhouette": 0.05312698184834392,
+                "calinski_harabasz": 4.911784771386749,
+                "davies_bouldin": 1.0488889960293797
+            },
+            {
+                "silhouette": 0.39114140275298603,
+                "calinski_harabasz": 8.46052324704727,
+                "davies_bouldin": 1.1443771828150588
+            },
+            {
+                "silhouette": 0.30494331055962515,
+                "calinski_harabasz": 6.680094315954256,
+                "davies_bouldin": 1.1408414420119666
+            }
+        ],
+        "best_score": 0.39114140275298603,
+        "test_metrics": {
+            "silhouette": 0.3581535562732025,
+            "calinski_harabasz": 8.669690197637754,
+            "davies_bouldin": 1.0874465787356682
+        },
+        "best_params": {
+            "eps": 0.8,
+            "min_samples": 3
+        },
+        "timestamp": "20241102_075356"
+    }
+}

@@ -1,0 +1,810 @@
+
+Logistic Regression Parameters - 2024-10-31 13:42:23
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 14:28:57
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 14:33:37
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 15:12:40
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 15:15:50
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 15:49:17
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 15:50:59
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:14:19
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [0 1 2]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:19:24
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:24:12
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:28:16
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [0 1 2]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:31:00
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:36:45
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:46:44
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 17:48:01
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-10-31 18:11:55
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-11-01 17:21:34
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================
+
+Logistic Regression Parameters - 2024-11-02 07:40:05
+==================================================
+
+Model Configuration:
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [41]
+
+Model Parameters:
+------------------------------
+Intercept terms:
+Class 1: 0.3917
+Class 2: 2.3919
+Class 3: -2.7835
+
+Feature coefficients:
+Feature              | Class        1 | Class        2 | Class        3
+--------------------------------------------------------------------------------
+price                |  -1.1394 |   0.4520 |   0.6875
+review_count         |  -0.4015 |   0.1896 |   0.2119
+Comfort              |  -1.6322 |  -0.9319 |   2.5641
+Cleanliness          |  -1.5122 |   0.4023 |   1.1099
+Facilities           |  -0.2497 |  -0.6817 |   0.9314
+star                 |   0.5740 |  -0.1361 |  -0.4379
+Pool                 |   0.2249 |   0.0312 |  -0.2560
+No_smoking_room      |   0.3253 |   0.2681 |  -0.5933
+Families_room        |  -0.0577 |   0.0165 |   0.0412
+Room_service         |  -0.3503 |   0.1926 |   0.1578
+Free_parking         |  -0.3306 |   0.1443 |   0.1863
+Breakfast            |   0.3599 |   0.0816 |  -0.4415
+24h_front_desk       |   1.1567 |   0.1092 |  -1.2659
+Airport_shuttle      |  -0.3821 |  -0.1840 |   0.5661
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+Class meanings:
+Class 1: Phòng bình thường (review_score < 7)
+Class 2: Phòng tốt (7 ≤ review_score < 9)
+Class 3: Phòng xuất sắc (review_score ≥ 9)
+
+================================================================================

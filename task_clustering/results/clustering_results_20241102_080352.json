@@ -1,0 +1,63 @@
+{
+    "kmeans": {
+        "fold_metrics": [
+            {
+                "silhouette": 0.1954551125922371,
+                "inertia": 6384.049606474289
+            },
+            {
+                "silhouette": 0.1978334240868808,
+                "inertia": 6271.583774787302
+            },
+            {
+                "silhouette": 0.17585065989209978,
+                "inertia": 6235.519731235432
+            },
+            {
+                "silhouette": 0.21411017102965565,
+                "inertia": 6492.292743237115
+            },
+            {
+                "silhouette": 0.18417435381507125,
+                "inertia": 6303.608795421512
+            }
+        ],
+        "best_score": 0.21411017102965565,
+        "test_metrics": {
+            "silhouette": 0.20386589574188305,
+            "inertia": 6492.292743237115
+        },
+        "best_params": {
+            "n_clusters": 10
+        },
+        "timestamp": "20241102_080352"
+    },
+    "dbscan": {
+        "fold_metrics": [
+            {
+                "silhouette": 0.22011225336935472
+            },
+            {
+                "silhouette": 0.04819679172756331
+            },
+            {
+                "silhouette": 0.05312698184834392
+            },
+            {
+                "silhouette": 0.39114140275298603
+            },
+            {
+                "silhouette": 0.30494331055962515
+            }
+        ],
+        "best_score": 0.39114140275298603,
+        "test_metrics": {
+            "silhouette": 0.3581535562732025
+        },
+        "best_params": {
+            "eps": 0.8,
+            "min_samples": 3
+        },
+        "timestamp": "20241102_080352"
+    }
+}

@@ -1,0 +1,6 @@
+# Thêm file mới để lưu các hằng số
+RANDOM_STATE = 42
+NUM_CLASSES = 4
+BATCH_SIZE = 32
+LEARNING_RATE = 0.001
+NUM_EPOCHS = 100 

@@ -1,0 +1,729 @@
+
+Ensemble Model Parameters - 2024-10-31 17:46:04
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 17:48:23
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 17:53:25
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 17:59:46
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 18:03:46
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 18:10:17
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-10-31 18:11:33
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-11-01 17:31:56
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
+
+Ensemble Model Parameters - 2024-11-02 07:45:34
+==================================================
+
+Base Models Configuration:
+
+SVM Model:
+Kernel: rbf
+C: 1.0
+Number of support vectors: [ 53 267  60]
+
+KNN Model:
+n_neighbors: 5
+weights: distance
+algorithm: auto
+
+Decision Tree Model:
+max_depth: 13
+n_leaves: 56
+Feature importances:
+price               : 0.0554
+review_count        : 0.0342
+Comfort             : 0.7770
+Cleanliness         : 0.0236
+Facilities          : 0.0697
+star                : 0.0100
+Pool                : 0.0045
+No_smoking_room     : 0.0000
+Families_room       : 0.0019
+Room_service        : 0.0217
+Free_parking        : 0.0015
+Breakfast           : 0.0000
+24h_front_desk      : 0.0004
+Airport_shuttle     : 0.0000
+
+Random Forest Model:
+n_estimators: 100
+max_depth: None
+Feature importances:
+price               : 0.1126
+review_count        : 0.0479
+Comfort             : 0.2646
+Cleanliness         : 0.2248
+Facilities          : 0.2365
+star                : 0.0417
+Pool                : 0.0079
+No_smoking_room     : 0.0082
+Families_room       : 0.0061
+Room_service        : 0.0079
+Free_parking        : 0.0069
+Breakfast           : 0.0061
+24h_front_desk      : 0.0218
+Airport_shuttle     : 0.0069
+
+Meta Model (LogisticRegression):
+Solver: lbfgs
+Max iterations: 100
+Convergence achieved: [ True]
+Number of iterations: [10]
+
+Meta Model Coefficients:
+Meta Feature         | Class        0 | Class        1 | Class        2
+--------------------------------------------------------------------------------
+svm_class_0          |   0.7830 |  -0.2981 |  -0.4848
+svm_class_1          |  -0.2485 |   0.6698 |  -0.4213
+svm_class_2          |  -0.5082 |  -0.4196 |   0.9278
+knn_class_0          |   1.2760 |  -0.7048 |  -0.5712
+knn_class_1          |  -0.6771 |   1.3067 |  -0.6297
+knn_class_2          |  -0.5727 |  -0.6499 |   1.2225
+dt_class_0           |   1.2760 |  -0.7048 |  -0.5712
+dt_class_1           |  -0.6771 |   1.3067 |  -0.6297
+dt_class_2           |  -0.5727 |  -0.6499 |   1.2225
+rf_class_0           |   1.1465 |  -0.6073 |  -0.5392
+rf_class_1           |  -0.5766 |   1.1161 |  -0.5395
+rf_class_2           |  -0.5437 |  -0.5566 |   1.1003
+
+Classes:
+Number of classes: 3
+Class labels: [1 2 3]
+
+================================================================================
