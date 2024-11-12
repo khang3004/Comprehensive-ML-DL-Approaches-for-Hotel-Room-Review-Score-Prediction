@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python"/>
     <img src="https://img.shields.io/badge/PyTorch-1.9+-red?style=for-the-badge&logo=pytorch"/>
     <img src="https://img.shields.io/badge/Scikit--learn-0.24+-orange?style=for-the-badge&logo=scikit-learn"/>
+    <img src="https://img.shields.io/badge/Docker-19.03+-blue?style=for-the-badge&logo=docker"/>
   </p>
 </div>
 
@@ -117,6 +118,106 @@ python evaluate.py \
     --model KMeans \
     --save_model
 ```
+
+### 🐳 Docker Deployment
+
+1. **Build Docker Image**
+```bash
+# Build image với tag
+docker build -t hotel-analysis:latest .
+```
+
+2. **Run Container**
+```bash
+# Chạy container với mounted volumes
+docker run -it --name hotel-analysis \
+    -v "$(pwd)/data:/app/data" \
+    -v "$(pwd)/models:/app/models" \
+    -v "$(pwd)/results:/app/results" \
+    hotel-analysis:latest
+```
+
+3. **Run Specific Tasks**
+```bash
+# Regression task
+docker run -it --name hotel-regression \
+    -v "$(pwd)/data:/app/data" \
+    -v "$(pwd)/models:/app/models" \
+    -v "$(pwd)/results:/app/results" \
+    hotel-analysis:latest \
+    python -u task_regression/evaluate.py \
+    --task_type regression \
+    --model_type ml \
+    --model Ridge_Regression
+
+# Classification task
+docker run -it --name hotel-classification \
+    -v "$(pwd)/data:/app/data" \
+    -v "$(pwd)/models:/app/models" \
+    -v "$(pwd)/results:/app/results" \
+    hotel-analysis:latest \
+    python -u task_classification/evaluate.py \
+    --task_type classification \
+    --model_type ml
+
+# Clustering task
+docker run -it --name hotel-clustering \
+    -v "$(pwd)/data:/app/data" \
+    -v "$(pwd)/models:/app/models" \
+    -v "$(pwd)/results:/app/results" \
+    hotel-analysis:latest \
+    python -u task_clustering/evaluate.py \
+    --task_type clustering \
+    --model_type ml
+```
+
+4. **Useful Docker Commands**
+```bash
+# List containers
+docker ps -a
+
+# Stop container
+docker stop hotel-analysis
+
+# Remove container
+docker rm hotel-analysis
+
+# View logs
+docker logs -f hotel-analysis
+
+# Clean up
+docker system prune -a
+```
+
+5. **Docker Compose (Optional)**
+```yaml
+# docker-compose.yml
+version: '3.8'
+services:
+  hotel-analysis:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./results:/app/results
+    environment:
+      - PYTHONPATH=/app
+      - TASK_DIR=/app/data
+      - MODEL_DIR=/app/models
+      - RESULTS_DIR=/app/results
+```
+
+Run with docker-compose:
+```bash
+docker-compose up --build
+```
+
+### 🐳 Docker Requirements
+
+- Docker Engine 19.03+
+- Docker Compose 1.27+ (optional)
+- At least 8GB RAM
+- 20GB free disk space
 
 ## 📊 Data Architecture
 
