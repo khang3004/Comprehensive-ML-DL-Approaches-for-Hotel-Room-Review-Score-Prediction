@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  ml-training:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: booking-hotel-analytics:latest
+    container_name: hotel-analytics
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./results:/app/results
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+      - CUDA_VISIBLE_DEVICES=0
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  ml-training-cpu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: booking-hotel-analytics:latest
+    container_name: hotel-analytics-cpu
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./results:/app/results
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    working_dir: /app
+    stdin_open: true
+    tty: true
+
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: booking-hotel-analytics:latest
+    container_name: hotel-analytics-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./results:/app/results
+      - ./notebooks:/app/notebooks
+    environment:
+      - PYTHONPATH=/app
+    working_dir: /app
+    command: jupyter notebook --no-browser --allow-root --ip=0.0.0.0 --port=8888
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
