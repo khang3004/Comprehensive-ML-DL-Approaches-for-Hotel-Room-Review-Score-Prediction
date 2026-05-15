@@ -16,11 +16,14 @@ def test_addition():
     assert 1 + 1 == 2
 
 
-@pytest.mark.parametrize("a,b,expected", [
-    (1, 2, 3),
-    (5, 5, 10),
-    (0, 0, 0),
-])
+@pytest.mark.parametrize(
+    "a,b,expected",
+    [
+        (1, 2, 3),
+        (5, 5, 10),
+        (0, 0, 0),
+    ],
+)
 def test_addition_parametrized(a, b, expected):
     """Parametrized test for addition."""
     assert a + b == expected
